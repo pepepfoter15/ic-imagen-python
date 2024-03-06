@@ -10,7 +10,7 @@ pipeline {
             stages {
                 stage('Clonacion del repo') {
                     steps {
-                        git branch:'master',url:'https://github.com/pepepfoter15/ic-imagen-python.git'
+                        git branch:'main',url:'https://github.com/pepepfoter15/ic-imagen-python.git'
                     }
                 }
                 stage('Instalacion de los paquetes requeridos') {
